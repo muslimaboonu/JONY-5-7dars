@@ -1,0 +1,56 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JONY Modal</title>
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- STYLE -->
+    <link rel="stylesheet" href="stayle.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <button class="btn show-btn" id="show-btn">Show Modal</button>
+
+      <!-- MODAL -->
+      <div class="modal" id="modal">
+        <!-- MODAL HEADER -->
+        <div class="modal-header">
+          <h3>I love Jony🩵</h3>
+          <button class="btn close-btn" id="close-btn">
+            <i class="fas fa-close"></i>
+          </button>
+        </div>
+
+        <!-- MODAL BODY -->
+        <div class="modal-body">
+          <h2 class="modal-title">Modal Title</h2>
+          <p>
+            Jahid Afrail oglu Huseynli (Azerbaijani: Cahid Əfrail oğlu Hüseynli;
+            Russian: Джахид Афраил оглы Гусейнли; born 29 February 1996), known
+            professionally as Jony, is an Azerbaijani-born Russian singer and
+            songwriter. He is the winner of the second season of the Russian
+            reality singing show The Masked Singer (2021) on NTV. Winner of the
+            Golden Gramophone Award, Zhara Music Awards, Muz-TV and New Radio
+            Awards. Winner of the 2023 30 Under 30 rating in the Music
+            category.[1] In 2024, he became a coach on the eleventh season of
+            The Voice Kids.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- OVERLAY -->
+    <div class="overlay hidden" id="overlay"></div>
+
+    <!-- JS -->
+    <script src="app.js"></script>
+  </body>
+</html>
